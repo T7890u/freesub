@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub vs Sub YouTube Channel Form</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 500px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 style="color: #333;">Create Your Sub vs Sub YouTube Channel</h2>
+    <form id="channelForm">
+        <label for="channelName">Channel Link:</label>
+        <input type="text" id="channelName" name="channelName" required>
+
+       
+
+        <label for="channelCategory">Channel Category:</label>
+        <select id="channelCategory" name="channelCategory" required>
+            <option value="" disabled selected>Select a category</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Tech">Tech</option>
+            <option value="Lifestyle">Lifestyle</option>
+            <option value="Education">Education</option>
+            <!-- Add more categories as needed -->
+        </select>
+
+        <button type="button" onclick="openNewWebsite()">Get 100 Subscribers</button>
+    </form>
+</div>
+
+<script>
+    function openNewWebsite() {
+        // You can replace the URL with the actual website where you want to redirect the user.
+        var redirectUrl = "https://eptougry.net/4/6204891";
+
+        // Open the new website in a new tab/window.
+        window.open(redirectUrl, "_blank");
+    }
+</script>
+
+</body>
+</html>
